@@ -1,8 +1,6 @@
-import UserCard from '@/components/UserCard';
-import axios, { AxiosError } from 'axios';
 import { useState, useEffect } from 'react';
 import { User, FetchUsers } from '@/types/user';
-import Grid from '@mui/material/Grid';
+//import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 export default function HomeBody() {

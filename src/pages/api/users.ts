@@ -1,7 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
 import { NextApiRequest, NextApiResponse } from 'next';
-import pool, { executeQuery } from '@/libs/db';
-import { User, CreateUserDto } from '@/types/user';
+import pool from '@/libs/db';
 
 // GET all users
 /*
